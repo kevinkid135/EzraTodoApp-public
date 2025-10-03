@@ -1,0 +1,41 @@
+.todo-view-container {
+  background-color: #121212;
+  color: #fff;
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.todo-view-header {
+  background-color: #1e88e5;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.todo-view-icon {
+  color: #fff;
+  margin-right: 8px;
+}
+
+.todo-view-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.todo-view-main {
+  padding: 16px;
+  height: calc(100vh - 64px); /* Adjust height based on header height (16px padding + 32px header?) */
+  overflow-y: auto;
+}
+
+.todo-view-selected-list {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
